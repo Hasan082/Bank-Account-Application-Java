@@ -1,3 +1,3 @@
-public class Checkings extends Account implements IBaseRate {
+public class Checkings extends Accounts implements IBaseRate {
 
 }
