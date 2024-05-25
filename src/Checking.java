@@ -5,7 +5,7 @@ public class Checking extends Account implements IBaseRate {
     int debitCardPIN;
 
     // Constructor
-    public Checking(String name) {
-        super(name);
+    public Checking(String name, String sSn, double initDeposit) {
+        super(name, sSn, initDeposit);
     }
 }

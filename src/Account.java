@@ -7,9 +7,13 @@ public abstract class Account {
     String accountNumber;
     double rate;
 
-    // Constructor
-    public Account(String name) {
-        System.out.println("New Account");
+    // Constructor with parameters
+    public Account(String name, String sSn, double initDeposit) {
+        this.name = name;
+        this.sSn = sSn;
+        balance = initDeposit;
         System.out.println("Name: " + name);
+        System.out.println("SSN: " + sSn);
+        System.out.println("Initial Balance: $" + balance);
     }
 }
